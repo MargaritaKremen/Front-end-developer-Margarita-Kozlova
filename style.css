@@ -10,9 +10,14 @@
   }  
   .contact-body  {
     padding-inline: 20%;
-    margin: 150px;
+    margin: 50px;
     background: url(/images/pexels-uri-espinosa-375374.jpg) no-repeat ;
   } 
+  .work-body {
+    padding-inline: 20%;
+    margin: 50px auto;
+    background: url(/images/pexels-uri-espinosa-375374.jpg) no-repeat ;
+  }
   h1,
   h2,
   h3 {
@@ -113,6 +118,7 @@
     color: var(--primary-color);
     text-align: center;
     display: block;
+    margin-bottom: 2em;
   }  
   .img-fluid {
     max-width: 70%;
