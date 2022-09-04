@@ -25,13 +25,34 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body class="work-body">
-    <a href="/" class="homepage-link" title="Homepage">Back to homepage</a>
+    <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a href="/">
+            <img src="images/logo.png" class="logo d-none d-md-block" alt="Margarita's logo">
+            <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="Margarita's logo">
+          </a>
+          <ul>
+            <li>
+              <a href="/"> Home</a>
+            </li>
+            <li>
+                <a href="/about.html" title="About Margarita"> About</a>
+              </li>
+              <li class="active">
+                <a href="/works.html" title="Margarita's works"> Work</a>
+              </li>
+              <li>
+                <a href="/contact.html" title="Contact Margarita"> Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     <h1>My works</h1>  
  
-    <div class="container ">
+    <div class="container mt-5">
       <div class="row mt-5">
         <div class="col-md-6 center">
-          <img src="/images/My-first-page.jpg" class="img-fluid center rounded" />
+          <img src="/images/My-first-page.jpg" class="img-fluid center rounded"  alt="First project preview" />
         </div>
         <div class="col-md-6">
           <h2 class="mb-3">My first webpage</h2>
@@ -57,11 +78,9 @@
         </p>
         </div>
         <div class="col-md-6 center">
-          <img src="/images/Current-weather.jpg" class="img-fluid rounded center" />
+          <img src="/images/Current-weather.jpg" class="img-fluid rounded center" alt="Weather project preview" />
         </div>
-      </div>
-      
-    </div>
-    
+      </div>      
+    </div>    
   </body>
 </html>
