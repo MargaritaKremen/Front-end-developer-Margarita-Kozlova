@@ -10,7 +10,6 @@
   }  
   .contact-body  {
     padding-inline: 20%;
-    margin: 50px;
     background: url(/images/pexels-uri-espinosa-375374.jpg) no-repeat ;
   } 
   .work-body {
@@ -58,6 +57,14 @@
   img{
     display: none;
   }
+  .about-me-p{
+    font-size: 18px;
+    text-align:justify;
+}  
+.about-section-content{
+  margin-left: none;
+  text-align: center;
+}
 }
   p {
     padding: 20px;
@@ -65,6 +72,15 @@
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+  }
+  .about-me-p{
+    background: none;
+     padding: 0;
+     font-size: 20px;
+     text-align:justify;
+  }
+  .about-section-content{
+    margin-left: 30px;
   }
   .hero {
     text-align: center;
@@ -138,6 +154,9 @@
   } 
   .logo {
     max-height: 40px;
+  }
+  .about-logo{
+    max-width: 130px;
   }
   footer {
     margin: 60px 0;
